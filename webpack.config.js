@@ -30,7 +30,7 @@ let entry = globmaths.reduce((obj, file) => {
 module.exports = {
     entry: entry,
     output: {
-        path: `app/assets/lib/`,
+        path: `widget/app/assets/lib/`,
         filename: "[name].js",
     },
     module: {
